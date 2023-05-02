@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Camping Website - Home</title>
+  <link rel="stylesheet" href="/styleIndex.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <h1>Welcome to our Camping Website</h1>
+    <p>Camping is a great way to enjoy the great outdoors and get some fresh air. Whether you're camping with friends, family, or by yourself, there's something for everyone.</p>
+    <h2>Fun Facts About Camping</h2>
+    <ul>
+      <li>Camping can improve your sleep quality and reset your internal clock.</li>
+      <li>Camping can reduce stress and increase happiness.</li>
+      <li>Camping can improve your cognitive abilities and boost creativity.</li>
+    </ul>
+    <div id="video" style="height: 400px;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BHACKCNDMW8?controls=0"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share autoplay" allowfullscreen></iframe>
+    </div>
+
+    <button id="location-btn"> Find Camping Locations Near Me</button>
+    <button id="weather-btn">Check Weather Conditions</button>
+    <div id="weather-info"></div>
+  </div>
+</body>
+<script src="/scriptIndex.js"></script>
+</html>
